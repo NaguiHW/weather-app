@@ -15,7 +15,7 @@ $font: Arial, Helvetica, sans-serif;
     font-size: 50px;
     margin: 20px;
   }
-  form {
+  .form {
     margin: 25px 0;
     .search-city{
       height: 25px;
@@ -36,6 +36,7 @@ $font: Arial, Helvetica, sans-serif;
     align-items: center;
     .description {
       margin-bottom: 25px;
+      text-transform: capitalize;
     }
     .weather-box {
       display: flex;

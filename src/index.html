@@ -8,23 +8,24 @@
 </head>
 <body>
   <div class="container">
+    <div class="error" id="error"></div>
     <h1 class="title">Weather App</h1>
-    <form>
-      <input type="text" name="city" id="city" placeholder="Search your city" class="search-city" required>
-      <input type="submit" value="Search" class="search">
-    </form>
+    <div class="form">
+      <input type="text" name="city" id="city" placeholder="Search your city" class="search-city" autocomplete="off" required>
+      <button class="search">Search</button>
+    </div>
     <div class="weather-app">
-      <h1 class="city-name">Panama</h1>
-      <h3 class="description">Scattered clouds</h3>
+      <h1 class="city-name" id="city-name">Panama</h1>
+      <h3 class="description" id="description">Scattered clouds</h3>
       <div class="weather-box">
         <div class="left">
-          <h4 class="temp">29 C</h4>
-          <p class="max-temp">Max: 32 C</p>
-          <p class="min-temp">Min: 27 C</p>
+          <h4 class="temp" id="temp">29 ℃</h4>
+          <p class="min-temp" id="min-temp">Min: 27 ℃</p>
+          <p class="max-temp" id="max-temp">Max: 32 ℃</p>
         </div>
         <div class="right">
-          <p class="humidity">Humidity: 74%</p>
-          <p class="wind-speed">Wind Speed: 1.5 m/s</p>
+          <p class="humidity" id="humidity">Humidity: 74%</p>
+          <p class="wind-speed" id="wind-speed">Wind Speed: 1.5 m/s</p>
         </div>
       </div>
     </div>

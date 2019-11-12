@@ -1,4 +1,4 @@
 import './style/main.scss';
-import { findWeather } from './partials/apiCall';
+import { searchCity } from './partials/addEventToButton';
 
-findWeather('Panama');
+searchCity();

@@ -4,9 +4,13 @@ const APP_ID = '&APPID=63483644a53e7a45025b926c656d5f59';
 const UNIT = '&units=metric';
 
 let findWeather = city => {
-  let url = `${API_URL}${cityName.replace('cityName', city)}${APP_ID}${UNIT}`;
-  $.get(url, { crossDomain: true }, data => {
-    console.log(data);
+  return new Promise((resolve, reject) => {
+    let url = `${API_URL}${cityName.replace('cityName', city)}${APP_ID}${UNIT}`;
+    $.get(url, { crossDomain: true }, data => {
+      resolve(data)
+    }).fail ( () => {
+      reject(city);
+    });
   });
 };
 
