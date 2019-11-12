@@ -33,7 +33,6 @@ let searchCity = () => {
       return findWeather(cityInput.value);
     }).then( city => {
       windSpeed.innerHTML = `Wind Speed: ${city.wind.speed} m/s`;
-      console.log(city);
     }).catch(onError);
   });
 }

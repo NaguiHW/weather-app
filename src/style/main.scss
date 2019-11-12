@@ -41,6 +41,7 @@ $font: Arial, Helvetica, sans-serif;
     .weather-box {
       display: flex;
       justify-content: space-between;
+      margin: 20px 0;
       .left {
         width: 200px;
         .temp {
@@ -56,6 +57,6 @@ $font: Arial, Helvetica, sans-serif;
   }
 }
 
-.hide {
-  display: none;
+.error {
+  text-align: center;
 }
