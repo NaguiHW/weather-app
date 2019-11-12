@@ -7,6 +7,28 @@
   <title>Weather App</title>
 </head>
 <body>
-  
+  <div class="container">
+    <h1 class="title">Weather App</h1>
+    <form>
+      <input type="text" name="city" id="city" placeholder="Search your city" class="search-city" required>
+      <input type="submit" value="Search" class="search">
+    </form>
+    <div class="weather-app">
+      <h1 class="city-name">Panama</h1>
+      <h3 class="description">Scattered clouds</h3>
+      <div class="weather-box">
+        <div class="left">
+          <h4 class="temp">29 C</h4>
+          <p class="max-temp">Max: 32 C</p>
+          <p class="min-temp">Min: 27 C</p>
+        </div>
+        <div class="right">
+          <p class="humidity">Humidity: 74%</p>
+          <p class="wind-speed">Wind Speed: 1.5 m/s</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
 </body>
 </html>
