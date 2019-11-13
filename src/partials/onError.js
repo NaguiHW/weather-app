@@ -1,11 +1,12 @@
-let error = document.createElement('div');
-let container = document.querySelector('.container');
+/* eslint-disable import/prefer-default-export */
+const error = document.createElement('div');
+const container = document.querySelector('.container');
 
-let onError = city => {
-  error.innerHTML = `${city} doesn't exist. Try another one.`
+const onError = (city) => {
+  error.innerHTML = `${city} doesn't exist. Try another one.`;
   error.classList.add('error');
   container.appendChild(error);
   setTimeout(() => error.remove(), 3000);
-}
+};
 
 export { onError };
