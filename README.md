@@ -11,4 +11,4 @@ Kalib Hackin - [naguihw@gmail.com](naguihw@gmail.com)
 5. Open [http://localhost:8080/](http://localhost:8080/) in your browser.
 
 
-Live Demo: 
+Live Demo: https://cdn.statically.io/gh/NaguiHW/weather-app/release/dist/index.html
