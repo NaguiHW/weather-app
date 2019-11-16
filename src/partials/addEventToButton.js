@@ -12,7 +12,7 @@ const maxTemp = document.querySelector('#max-temp');
 const humidity = document.querySelector('#humidity');
 const windSpeed = document.querySelector('#wind-speed');
 const weatherImage = document.querySelector('#image');
-let toggle = document.querySelector('#toggle');
+const toggle = document.querySelector('#toggle');
 let weatherStatus = '';
 
 const searchCity = () => {
