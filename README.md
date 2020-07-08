@@ -1,5 +1,5 @@
 # Weather App
-Weather app is a project where is implemented API calls and asynchronous functions.
+Weather app is a project where I implemented API calls and asynchronous functions.
 
 ## Live Demo
 https://rawcdn.githack.com/NaguiHW/weather-app/52514befb658a4e552bc471a8db537232dfb67ca/dist/index.html
